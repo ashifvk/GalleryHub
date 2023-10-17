@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-m@-%u$@*uxd-co*-pdh&iwpvq48nrr2&$1p61*onhad5$%oh=j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 
 # Application definition
@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
 }
 
 
@@ -129,6 +129,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+
 STATIC_URL = 'static/'
 MEDIA_URL='./media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
@@ -148,4 +149,9 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'ashifvk6511@gmail.com'  # Your email address
 EMAIL_HOST_PASSWORD = 'yfwt dfbu ibbp oyeu'  # Your email password
 ALLOWED_HOSTS=[]
+
+
+
+STATICFILES_DIRS = [BASE_DIR/'static',]
+STATIC_ROOT = BASE_DIR/'staticfiles'
 
