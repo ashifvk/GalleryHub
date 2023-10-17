@@ -1,0 +1,67 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+}
+
+.viewDiv {
+    display: block;
+}
+
+.hideDiv {
+    display: none;
+    min-height: 350px !important;
+
+}
+
+.btn-bootom {
+    width: 130px;
+    margin-left: 25px;
+}
+
+
+.btn-save {
+    margin-left: 25px;
+
+}
+
+.input-outline {
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #ccc;
+}
+
+#ProfileImage {
+    border: none !important;
+    outline: none !important;
+
+}
+
+.ms-3 {
+    display: flex;
+}
+
+.bt {
+    position: absolute !important;
+    right: 20px !important;
+    margin-top: 25px;
+
+}
+.btn-cancel{
+    margin-left: 10px;
+background-color: black !important;
+color: white !important;
+}
+.user{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.a-color{
+color: white !important;
+}

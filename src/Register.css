@@ -1,0 +1,48 @@
+.bor{    width: 50%;
+    height: 92%;
+    margin: auto;
+border: solid white;
+padding-bottom: 10px;}
+.mai{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    height: 120vh;
+}
+
+.dis{
+    display: flex;
+    flex-direction: column;
+   width:fit-content;
+   margin: auto;
+    
+}
+.dis input{width:40vw;
+    margin-bottom: 20px;
+height: 7vh;
+background: transparent;
+border: white solid;
+border-radius: 5px;
+color: white;}
+
+
+.bv{width: 100px;
+    height: 40px;
+background: transparent;
+border: white solid;
+color: white;
+border-radius: 5px;
+margin: 10px auto;}
+
+.me{
+    padding-top: 30px;
+}
+
+.dis input:hover{
+    border: solid blue;
+}
+
+.bv:hover{
+    color: black;
+    background-color: white;
+}
